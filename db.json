@@ -20,7 +20,10 @@
       "email": "dikshyaaaaa@gmail.com",
       "Level": "junior",
       "references": "linkedin",
-      "technology": "HR",
+      "technology": [
+        "HR",
+        "JavaScript"
+      ],
       "status": "pending",
       "experience": "2 years",
       "expectedsalary": "5,000",
@@ -69,19 +72,20 @@
       "id": 7
     },
     {
-      "fullname": "Iure voluptatem Ven",
-      "phonenumber": "Distinctio Eligendi",
-      "email": "Esse aspernatur ips",
-      "level": "Vitae ut corporis do",
-      "references": "Possimus sunt aute",
+      "fullname": "Non eum ducimus aut",
+      "phonenumber": "Rerum sit consequat",
+      "email": "Cupiditate consequat",
+      "level": "Mid",
+      "references": "Rem similique facere",
       "technology": [
-        "JavaScript"
+        "Angular",
+        "Vue"
       ],
-      "status": "Ipsum aliquam dolor",
-      "experience": "Maiores elit minim ",
-      "expectedsalary": "Irure sit rerum aliq",
+      "status": "Approved",
+      "experience": "Facere minima dolore",
+      "expectedsalary": "Magni quisquam rerum",
       "resume": "",
-      "id": 8
+      "id": 9
     }
   ],
   "interviewerlist": [
@@ -165,6 +169,13 @@
       "file": "<p>hh</p>",
       "remarks": "fgfhghj",
       "id": 4
+    },
+    {
+      "name": "Krishna Chaudhary",
+      "status": "hired",
+      "file": "<p>jgjgjhjhjkhkjkjk</p><p>hjhkjk</p><p>jkkjkljl</p><p>hkjhkjkljl;kl;kl;k</p><p>hkjkljlkjl;jk jhgjhgjkhb gjmn mnhgjkbmn mnhmbm,nk,nm,nkh,h,mnbm hjkbm,bbmbmb,mh,nm,nmnn nmnnnmn. n,nm,bmjhkjkjmb. gjm jgjhkj jhbnvnbn bhkbmbmbm,n,mn,jn,j,</p>",
+      "remarks": "fhgjh",
+      "id": 5
     }
   ],
   "assessment": [
@@ -217,6 +228,32 @@
         }
       ],
       "id": 3
+    }
+  ],
+  "lettertemplate": [
+    {
+      "id": 1,
+      "name": "Job Rejected hdgshc",
+      "template": {
+        "subject": "Application for the React Js junior position Rejected.",
+        "body": "<p>Dear</p><p><strong>Kopil Bhusal</strong></p><p>We are regret to inform you that you are not selected for the further in our company. we wish you a very good future a head. and wish you all the best .</p><p><br></p><p>Sincerely</p><p><strong>Amnil Technology</strong></p><p><em>React Dept</em></p>"
+      }
+    },
+    {
+      "name": "Job Application Letter",
+      "template": {
+        "subject": "Application for the React Js junior position selected.",
+        "body": "<p>i am writing this letter to told you that you are selected for the react js postion and can be continue from this monday . we congratulate you and wish you all the best for the coming days.hope you do your best in this amnil tech.</p><p><strong>Sincerely </strong></p><p><strong>Amnil Technology</strong></p>"
+      },
+      "id": 3
+    },
+    {
+      "name": "suspension letter",
+      "template": {
+        "subject": "application for subpension for 3 days",
+        "body": "<p>Dear Sagar</p><p>You are sebspended for our office for 5 days as you voilet the </p><p>hsjhkjd</p><p> </p><p><em>Sincerely </em></p><p><strong>amnil technology</strong></p>"
+      },
+      "id": 4
     }
   ]
 }

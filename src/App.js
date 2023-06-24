@@ -10,12 +10,11 @@ import { Route, Routes } from 'react-router-dom';
 import Account from './pages/Account'
 import  {Dashboard} from './components/dashboard/pages/Dashboard';
 import Applicant from './components/applicant/pages/Applicant';
-import ExperiencedApplicant from './components/experienced/pages/ExperiencedApplicant';
-import Experience from './components/experience/pages/Experience';
 import { InterviewerList } from './components/interviewerlist/pages/Interviewerlist';
 import { ScheduleInterview } from './components/scheduleInterview/pages/ScheduleInterview';
 import OfferLetterPage from './components/offerletter/pages/OfferLetterPage';
 import AssessmentTest from './components/assessmentTest.js/pages/AssessmentTest';
+import LetterTemplatePage from './components/lettertempletepage/pages/LetterTempletePage';
 
 function App() {
   return (
@@ -58,24 +57,6 @@ function App() {
       </Routes>
       <Routes>
         <Route
-        path='/experiencedApplicant'
-        element={
-          <Account>
-            <ExperiencedApplicant/>
-          </Account>
-        }/>
-      </Routes>
-      <Routes>
-        <Route
-        path='/experience'
-        element={
-          <Account>
-            <Experience/>
-          </Account>
-        }/>
-      </Routes>
-      <Routes>
-        <Route
         path='/interviewer'
         element={
           <Account>
@@ -108,6 +89,15 @@ function App() {
         element={
           <Account>
             <AssessmentTest/>
+          </Account>
+        }/>
+      </Routes>
+      <Routes>
+        <Route
+        path='/lettertemplete'
+        element={
+          <Account>
+            <LetterTemplatePage />
           </Account>
         }/>
       </Routes>

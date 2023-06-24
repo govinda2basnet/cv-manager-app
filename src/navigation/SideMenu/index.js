@@ -1,6 +1,6 @@
 import {Menu,Layout} from "antd";
 
-import { PlusCircleTwoTone,MenuUnfoldOutlined,FileUnknownOutlined,AppstoreOutlined, FileDoneOutlined,AccountBookOutlined,BookOutlined, UserOutlined, TeamOutlined} from "@ant-design/icons"
+import { PlusCircleTwoTone,MenuUnfoldOutlined,SnippetsOutlined,AppstoreOutlined, FileDoneOutlined,AccountBookOutlined,BookOutlined, UserOutlined, TeamOutlined, IdcardFilled, IdcardOutlined} from "@ant-design/icons"
 import { useNavigate } from "react-router-dom";
 
 function SideMenu() {
@@ -20,27 +20,17 @@ function SideMenu() {
             items={[
                 {
                     label:"Dashboard",
-                    icon: <UserOutlined/>,
+                    icon: <AppstoreOutlined/>,
                     key: "/dashboard",
 
                 },
 
                 {
                     label:"Applicants",
-                    icon: <AppstoreOutlined/>,
+                    icon: <UserOutlined/>,
                     key: "/applicant",
 
                 },
-                // {
-                //     label:"Applicant With Experience",
-                //     icon: <AccountBookOutlined/>,
-                //     key: "/experiencedApplicant",
-                // },
-                // {
-                //     label:"Experience",
-                //     icon: <BookOutlined/>,
-                //     key: "/Experience",
-                // },
                 {
                     label:"Interviewer",
                     icon: <TeamOutlined/>,
@@ -61,6 +51,16 @@ function SideMenu() {
                     icon: <FileDoneOutlined/>,
                     key: "/assessmenttest",
                 }, 
+                {
+                    label:"Letter Templete",
+                    icon: <SnippetsOutlined />,
+                    key: "/lettertemplete",
+                }, 
+                {
+                    label:"Position",
+                    icon: <IdcardOutlined />,
+                    key: "/position",
+                }, 
             ]}
             />
 
@@ -68,4 +68,4 @@ function SideMenu() {
         </>
     )
 }
-export default SideMenu
+export default SideMenu 

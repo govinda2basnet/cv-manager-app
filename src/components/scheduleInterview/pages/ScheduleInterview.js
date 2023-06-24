@@ -188,7 +188,7 @@ export const ScheduleInterview = () => {
       <div style={{ marginBottom: 16 }}>
         <Input.Search placeholder="Search by Applicant Name" onChange={onSearchChange} />
       </div>
-      <Button type="primary" onClick={openCreateModal}>
+      <Button style={{backgroundColor:"green"}} type="primary" onClick={openCreateModal}>
         Create Interview
       </Button>
       <Table dataSource={filteredInterviews} columns={columns} rowKey="id" />

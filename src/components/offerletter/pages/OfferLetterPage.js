@@ -178,7 +178,7 @@ const OfferLetterPage = () => {
   return (
     <div style={{ margin: '50px' }}>
       <h1>Offer Letter</h1>
-      <Button style={{ marginBottom: '20px' }} type="primary" onClick={() => setModalVisible(true)}>
+      <Button style={{ marginBottom: '20px' ,backgroundColor:"green"}} type="primary" onClick={() => setModalVisible(true)}>
         Create Offer Letter
       </Button>
       <Table dataSource={data} columns={columns} />

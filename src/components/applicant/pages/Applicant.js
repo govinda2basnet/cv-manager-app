@@ -271,7 +271,7 @@ export default function Applicant() {
   return (
     <div>
       <Card title="Applicant Management" style={{ marginBottom: '20px' }}>
-        <Button type="primary" onClick={() => setIsCreating(true)}>
+        <Button style={{backgroundColor:"green"}} type="primary" onClick={() => setIsCreating(true)}>
           Create New Applicant
         </Button>
         <Input

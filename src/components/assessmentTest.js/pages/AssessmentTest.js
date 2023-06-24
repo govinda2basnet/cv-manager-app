@@ -112,7 +112,7 @@ const AssessmentTest = () => {
 
   const renderForm = () => (
     <Modal
-      visible={showForm}
+      open={showForm}
       title={selectedAssignment ? 'Update Assessment' : 'Add Assessment'}
       onCancel={() => setShowForm(false)}
       footer={[
@@ -208,7 +208,7 @@ const AssessmentTest = () => {
   return (
     <div style={{ margin: '50px' }}>
       <h1>Assignment Test</h1>
-      <Button type="primary" onClick={() => setShowForm(true)} style={{ marginBottom: 16 }}>
+      <Button  type="primary" onClick={() => setShowForm(true)} style={{ marginBottom: 16, backgroundColor:"green" }}>
         Add Assessment
       </Button>
       <Table columns={columns} dataSource={assignments} rowKey="id" />
