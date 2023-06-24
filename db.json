@@ -1,0 +1,222 @@
+{
+  "applicant": [
+    {
+      "id": 3,
+      "fullname": "Sandip Budhathiki",
+      "phonenumber": "98101333505",
+      "email": "sandyyyy@gmail.com",
+      "Level": "senior",
+      "references": "facebook",
+      "technology": "node js",
+      "status": "pending",
+      "experience": "6 years",
+      "expectedsalary": "50,000",
+      "resume": "my123resume.pdf"
+    },
+    {
+      "id": 4,
+      "fullname": "Dikshya Basnet",
+      "phonenumber": "9856108505",
+      "email": "dikshyaaaaa@gmail.com",
+      "Level": "junior",
+      "references": "linkedin",
+      "technology": "HR",
+      "status": "pending",
+      "experience": "2 years",
+      "expectedsalary": "5,000",
+      "resume": "myresumere.pdf"
+    },
+    {
+      "id": 5,
+      "fullname": "Aman Dangol",
+      "phonenumber": "9710108505",
+      "email": "xshrestha@gmail.com",
+      "Level": "senior",
+      "references": "linkedin",
+      "technology": "React js",
+      "status": "hired",
+      "experience": "5 years",
+      "expectedsalary": "30,000",
+      "resume": "myresumee.pdf"
+    },
+    {
+      "fullname": "Krishna Chaudhary",
+      "phonenumber": "9861679132",
+      "email": "chaudhary@gmail.com",
+      "Level": "mid",
+      "references": "linked",
+      "technology": "react",
+      "status": "Hired",
+      "experience": "3 yr",
+      "expectedsalary": "45000",
+      "resume": "",
+      "id": 6
+    },
+    {
+      "fullname": "Govinda Basnet",
+      "phonenumber": "9810108505",
+      "email": "awesomebasnet2@gmail.com",
+      "level": "mid",
+      "references": "linkedin",
+      "technology": [
+        "JavaScript",
+        "Python"
+      ],
+      "status": "pending",
+      "experience": "2 year",
+      "expectedsalary": "20000",
+      "resume": "",
+      "id": 7
+    },
+    {
+      "fullname": "Iure voluptatem Ven",
+      "phonenumber": "Distinctio Eligendi",
+      "email": "Esse aspernatur ips",
+      "level": "Vitae ut corporis do",
+      "references": "Possimus sunt aute",
+      "technology": [
+        "JavaScript"
+      ],
+      "status": "Ipsum aliquam dolor",
+      "experience": "Maiores elit minim ",
+      "expectedsalary": "Irure sit rerum aliq",
+      "resume": "",
+      "id": 8
+    }
+  ],
+  "interviewerlist": [
+    {
+      "id": 1,
+      "interviewername": "Dipendra Karki",
+      "email": "dipendra123@gmail.com",
+      "position": "Senior Developer"
+    },
+    {
+      "id": 2,
+      "interviewername": "Rashna Shahi",
+      "email": "rashna345@gmail.com",
+      "position": "Human Resources"
+    },
+    {
+      "id": 3,
+      "interviewername": "Rinku Chaudhary",
+      "email": "chaudharyrinku@gmail.com",
+      "position": "Software Developer"
+    },
+    {
+      "id": 4,
+      "interviewername": "Niru Prajapati",
+      "email": "niruhr3@gmail.com",
+      "position": "Senior Developer"
+    },
+    {
+      "id": 5,
+      "interviewername": "Kushal Bhurtel",
+      "email": "bhurtala123@gmail.com",
+      "position": "CEO and Manager"
+    }
+  ],
+  "interview": [
+    {
+      "id": 2,
+      "applicantName": "Govinda Basnet",
+      "interviewerName": "Dipendra Karki",
+      "scheduledDate": "2023-05-21",
+      "scheduledTime": "4:00 PM",
+      "applicantid": 5,
+      "interviewerid": 3
+    },
+    {
+      "applicantName": "Dikshya Basnet",
+      "interviewerName": [
+        "Niru Prajapati",
+        "Rashna Shahi"
+      ],
+      "scheduledDate": "2023-05-26",
+      "scheduledTime": "1:00 PM",
+      "id": 3
+    }
+  ],
+  "offerletters": [
+    {
+      "id": 1,
+      "name": "Govinda Basnet",
+      "status": "hired",
+      "file": "I am delighted to inform you that after careful consideration, we have decided to extend an offer of employment to you for the position of [Job Title] at [Company Name]. We were impressed with your qualifications, experience, and the skills you demonstrated throughout the application and interview process. We are confident that your expertise and contributions will greatly benefit our organization. We believe that you will thrive in our dynamic work environment and contribute to our continued success.",
+      "remarks": "accepted"
+    },
+    {
+      "id": 2,
+      "name": "Kopil Bhusal",
+      "status": "pending",
+      "file": "I am delighted to inform you that after careful consideration, we have decided to extend an offer of employment to you for the position of [Job Title] at [Company Name]. We were impressed with your qualifications, experience, and the skills you demonstrated throughout the application and interview process. We are confident that your expertise and contributions will greatly benefit our organization. We believe that you will thrive in our dynamic work environment and contribute to our continued success.",
+      "remarks": "N/Q"
+    },
+    {
+      "name": "Dikshya Basnet",
+      "status": "pending",
+      "file": "<p>jshdfkhskhfs</p><p>sjfhsk</p><p>bsfjbskj</p><p>dbsdishdhsijdijsdihsih fsbfhs bsjfbhkjsbfkbsfs jhfhbjksb jbfishbfs</p><p>fyusgfi jshfihs. jhfjshfjsjd jkfkjsf kjhfdfsiuhfjf iufbbjksh hfhef. chchekjfbej ujdbs. jbsb b jkcbksb bsfbsb jenr jkjefjk hsdjkkjje hhwjdkwkj wkhfsfbkwjke</p><p><br></p>",
+      "remarks": "good",
+      "id": 3
+    },
+    {
+      "name": 4,
+      "status": "2nd interview",
+      "file": "<p>hh</p>",
+      "remarks": "fgfhghj",
+      "id": 4
+    }
+  ],
+  "assessment": [
+    {
+      "id": 1,
+      "applicantName": "Govinda Basnet",
+      "title": "Assignment 1",
+      "evaluation": "Excellent",
+      "assessmentDocument": "Document1.pdf",
+      "applicantFile": "Applicant1.pdf"
+    },
+    {
+      "id": 2,
+      "applicantName": "Aman Dangol",
+      "title": "Assignment 2",
+      "evaluation": "Good",
+      "assessmentDocument": "Document2.pdf",
+      "applicantFile": "Applicant2.pdf"
+    },
+    {
+      "applicantName": "Iure voluptatem Ven",
+      "title": "test",
+      "evaluation": "excellent",
+      "assessmentDocument": [
+        {
+          "uid": "rc-upload-1685299674634-5",
+          "lastModified": 1684409023835,
+          "lastModifiedDate": "2023-05-18T11:23:43.835Z",
+          "name": " Green and White Minimalist Online Sale Instagram Post -4.pdf",
+          "size": 1274172,
+          "type": "application/pdf",
+          "percent": 0,
+          "originFileObj": {
+            "uid": "rc-upload-1685299674634-5"
+          }
+        }
+      ],
+      "applicantFile": [
+        {
+          "uid": "rc-upload-1685299674634-7",
+          "lastModified": 1684342842060,
+          "lastModifiedDate": "2023-05-17T17:00:42.060Z",
+          "name": " Green and White Minimalist Online Sale Instagram Post .pdf",
+          "size": 1255551,
+          "type": "application/pdf",
+          "percent": 0,
+          "originFileObj": {
+            "uid": "rc-upload-1685299674634-7"
+          }
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
